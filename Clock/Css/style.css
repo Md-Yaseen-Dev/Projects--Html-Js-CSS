@@ -1,0 +1,106 @@
+/* Creating background */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #13334c;    
+     /* #005792, #f6f6e9, #fd5f00;  */
+}
+
+/* add clock image*/
+.clock {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: url(clock1.png); */
+    background: url(../Img/newclock.jpeg);
+    background-size: cover;
+    border: 25px solid #011f2d;
+    border-radius: 50%;
+    box-shadow: 0 -15px 15px rgba(232, 12, 12, 0.05), inset 0 -15px 15px rgba(15, 15, 15, 0), 0 15px 15px rgba(119, 1, 115, 0.895), inset 0 15px 15px #0113135b;
+}
+
+/* Create hour hand, minute hand , and second hand*/
+
+.clock::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: grey ;
+    border-radius: 50%;
+    z-index: 10000;
+}
+
+.clock .hour,
+.clock .min,
+.clock .sec {
+    position: absolute;
+}
+
+.clock .hour,
+.hr {
+    width: 150px;
+    height: 160px;
+}
+
+.clock .min,
+.mn {
+    width: 190px;
+    height: 190px;
+}
+
+.clock .sec,
+.sc {
+    width: 230px;
+    height: 230px;
+}
+
+.hr,
+.mn,
+.sc {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: absolute;
+    border-radius: 50%;
+}
+
+.hr:before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 75px;
+    background:#026643;
+    z-index: 10;
+    border-radius: 6px 6px 0 0;
+}
+
+.mn:before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 100px;
+    background: #0c61b1;
+    z-index: 10;
+    border-radius: 8px 6px 0 0;
+}
+
+.sc:before {
+    content: " ";
+    position: absolute;
+    width: 2px;
+    height: 150px;
+    background: #c8252c;
+    z-index: 12;
+    border-radius: 6px 6px 0 0;
+}
