@@ -17,5 +17,5 @@ function solve() {
 //clearscreen function
 
 function clearscreen(){
-    document.getElementById('result').value =""
+    document.getElementById('result').value ="0"
 }
