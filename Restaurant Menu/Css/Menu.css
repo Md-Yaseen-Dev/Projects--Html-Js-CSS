@@ -1,0 +1,32 @@
+* {
+    background-color: rgb(190, 192, 174);
+    /* background: #13334c; */
+    /* font-size:10px; */
+    color: #13334c;
+
+
+
+}
+
+h2 {
+    text-align: center;
+    text-underline-position: below,yellow;
+}
+
+img {
+    width: 230px;
+    height: 200;
+
+
+}
+
+.btn-container {
+    position:relative;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+    margin-right: 20px;
+    box
+    
+}
