@@ -132,7 +132,7 @@ window.addEventListener('DOMContentLoaded', function () {
     });
 
 });
-//load
+//load items 
 function displayMenuItems(menuItems) {
     let displayMenu = menuItems.map(function (item) {
 
