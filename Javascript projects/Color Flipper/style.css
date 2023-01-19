@@ -1,0 +1,34 @@
+.container {
+    margin: 25%;
+    width: 60%;
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: azure;
+    box-shadow: 0 -15px 15px rgba(232, 12, 12, 0.05), inset 0 -15px 15px rgba(15, 15, 15, 0), 0 15px 15px rgba(62, 2, 39, 0.895), inset 0 15px 15px #0113135b;
+}
+
+#btn {
+    padding: 10px;
+    background-color: rgb(231, 147, 147);
+    font-style: italic;
+    color: black;
+    box-sizing: content-box;
+}
+
+.nav-center {
+    color: whitesmoke;
+    background-color: rgb(255, 0, 157);
+    font-size: 20px;
+
+}
+
+.nav-links {
+    margin: auto;
+    width: 25%;
+    color: black
+    /* display: flex; */
+    /* justify-self: flex-end; */
+ /* justify-content: space-between; */
+}
