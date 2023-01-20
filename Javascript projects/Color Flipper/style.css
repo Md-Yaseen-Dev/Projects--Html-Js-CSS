@@ -10,16 +10,22 @@
 }
 
 #btn {
+    display: flexbox;
+    justify-content: center;
     padding: 10px;
     background-color: rgb(231, 147, 147);
     font-style: italic;
     color: black;
-    box-sizing: content-box;
+
+}
+#btn:hover{
+    background-color: rgb(235, 96, 10);
+    box-shadow: 0 -15px 15px rgba(232, 12, 12, 0.05), inset 0 -15px 15px rgba(221, 236, 9, 0), 0 15px 15px rgb(232, 253, 4), inset 0 15px 15px #04ebeb5b;
 }
 
 .nav-center {
     color: whitesmoke;
-    background-color: rgb(255, 0, 157);
+    background-color:transparent;
     font-size: 20px;
 
 }
@@ -27,8 +33,11 @@
 .nav-links {
     margin: auto;
     width: 25%;
-    color: black
-    /* display: flex; */
-    /* justify-self: flex-end; */
+    color: black;
+    display: flex;
+    justify-self: flex-end;
  /* justify-content: space-between; */
+}
+.color{
+    color: rgb(13, 174, 206);
 }
