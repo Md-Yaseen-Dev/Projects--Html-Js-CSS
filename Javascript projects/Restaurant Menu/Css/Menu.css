@@ -304,13 +304,9 @@ Countdown Timer
 }
 
 body {
-    background-color: rgb(190, 192, 174);
+    background-color: rgb(6, 30, 41);
     /* background: #378a0e; */
     font-size: 20px;
-    color: #05477a;
+    color: #f15a85;
 
-}
-
-.btn-container {
-    font-size: 30px;
 }
