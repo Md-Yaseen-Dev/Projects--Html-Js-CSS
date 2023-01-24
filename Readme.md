@@ -6,6 +6,7 @@
 
 - > [3. Our Reviews](./Javascript%20projects/Our%20Reviews/)
 
+- > [4. Nav Bar](./Javascript%20projects/Navbar/)
 - > [Clock ](./Javascript%20projects/Clock/)
 
 - > [Earth and Moon ](./Javascript%20projects/Earth%20and%20Moon%20around%20sun/)
