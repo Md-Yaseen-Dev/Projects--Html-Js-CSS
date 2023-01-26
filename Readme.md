@@ -9,6 +9,8 @@
 - > [4. Nav Bar](./Javascript%20projects/Navbar/)
 
 - > [5. Side Bar](./Javascript%20projects/Side%20bar/)
+
+- > [7.]
 - > [Clock ](./Javascript%20projects/Clock/)
 
 - > [Earth and Moon ](./Javascript%20projects/Earth%20and%20Moon%20around%20sun/)
