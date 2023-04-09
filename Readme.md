@@ -8,13 +8,22 @@
 
 - > [4. Nav Bar](./Javascript%20projects/Navbar/)
 
-- > [5. Side Bar](./Javascript%20projects/Side%20bar/)
+- > [5. Side Bar](./Javascript%20projects/05-Side%20bar/)
 
-- > [7.]
-- > [Clock ](./Javascript%20projects/Clock/)
+- > [6. Modal](./Javascript%20projects/06-modal/)
 
-- > [Earth and Moon ](./Javascript%20projects/Earth%20and%20Moon%20around%20sun/)
+- > [7. My startup](./Javascript%20projects/07-My%20startup/)
 
-- > [🅲🅰🅻🅲🆄🅻🅰🆃🅾🆁 ](./Javascript%20projects/Calculator/)
+- > [8. Restaurant](./Javascript%20projects/08-Restaurant-Menu/)
 
-- > [ 🆁🅴🆂🆃🅰🆄🆁🅰🅽🆃 - 🅼🅴🅽🆄](./Javascript%20projects/Restaurant%20Menu/)
+- > [9. Calculator](./Javascript%20projects/Calculator/)
+
+
+## HTML & CSS
+
+- > [01. Clock ](./Javascript%20projects/Clock/)
+
+- > [02. Earth and Moon ](./Javascript%20projects/Earth%20and%20Moon%20around%20sun/)
+
+
+
